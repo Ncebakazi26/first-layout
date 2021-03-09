@@ -1,0 +1,18 @@
+
+
+@media(max-width:800px){
+    .color{
+        background-color: blue;
+    }
+}
+@media(max-width:400px){
+    .color{
+        background-color: green;
+    }
+    
+}
+@media(min-width:1000px){
+    .color{
+        background-color: orange;
+    }
+}

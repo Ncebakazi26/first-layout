@@ -1,0 +1,54 @@
+body {
+
+    font-family: arial;
+}
+
+.header {
+    background-color: lightgreen;
+    padding: 1em;
+}
+
+.main {
+    background-color : lightseagreen;
+}
+
+.footer {
+    background-color: lightgreen;
+    padding: 1em;
+}
+@media(min-width:800px){
+.side-bar {
+    float: right;
+    width: 25%;
+}
+}
+.side-bar {
+    padding: 1em;
+}
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+  }
+.content {
+    padding: 1em;
+}
+.menu li {
+    list-style: none;
+}
+   .menu a {
+        /* Ensure one can click anyware in the li for the link */
+        padding: 1em;
+        display: block;
+        width: 6em;
+    }
+    .menu a:hover {
+        /* Change the menu color to darker green when hovering over a link*/
+        background-color: darkgreen;
+    }
+    @media(min-width:800px){
+    /* Other css is here still */
+
+    .menu {
+        display: flex;
+    }
+}
